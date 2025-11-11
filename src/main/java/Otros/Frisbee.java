@@ -1,5 +1,9 @@
-// Clase que representa un frisbee. Implementa Giratorio porque también gira, pero no almacena datos.
-public class Frisbee implements Giratorio{
+package Otros;
+
+import Interfaces.Giratorio;
+
+// Clase que representa un frisbee. Implementa Interfaces.Giratorio porque también gira, pero no almacena datos.
+public class Frisbee implements Giratorio {
 
     private String color;
     private double diametro;

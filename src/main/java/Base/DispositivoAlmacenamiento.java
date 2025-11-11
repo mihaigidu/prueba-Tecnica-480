@@ -1,6 +1,7 @@
+package Base;
+import Interfaces.Disco;
 
-//clase abstrata que implementa la interfaz Disco
-
+//clase abstrata que implementa la interfaz Interfaces.Disco
 public abstract class DispositivoAlmacenamiento implements Disco {
 
     //atributos y metodos comunes a todos los dispositivos de almacenamiento

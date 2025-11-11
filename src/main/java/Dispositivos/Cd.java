@@ -1,8 +1,11 @@
-// Clase concreta que representa un CD. Hereda de DispositivoAlmacenamiento.
+package Dispositivos;
 
+import Base.DispositivoAlmacenamiento;
+
+// Clase concreta que representa un CD. Hereda de DispositivoAlmacenamiento.
 public class Cd extends DispositivoAlmacenamiento {
     public Cd (String nombre, double capacidad, String Brand) {
-        super(nombre, capacidad, "Cd", Brand);
+        super(nombre, capacidad, "Dispositivos.Cd", Brand);
 
     }
 

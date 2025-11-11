@@ -1,4 +1,8 @@
-// Clase que representa una rueda. Implementa Giratorio, ya que gira pero no almacena datos.
+package Otros;
+
+import Interfaces.Giratorio;
+
+// Clase que representa una rueda. Implementa Interfaces.Giratorio, ya que gira pero no almacena datos.
 public class Rueda implements Giratorio {
     private String material;
     private double diametro;

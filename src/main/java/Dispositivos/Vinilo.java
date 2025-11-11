@@ -1,8 +1,12 @@
+package Dispositivos;
+
+import Base.DispositivoAlmacenamiento;
+
 // Clase concreta que representa un disco de vinilo. Hereda de DispositivoAlmacenamiento.
 public class Vinilo extends DispositivoAlmacenamiento {
 
     public Vinilo(String nombre, double capacidad, String Brand) {
-        super(nombre, capacidad, "Vinilo", Brand);
+        super(nombre, capacidad, "Dispositivos.Vinilo", Brand);
     }
 
     @Override

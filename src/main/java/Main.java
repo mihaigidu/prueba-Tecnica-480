@@ -1,12 +1,19 @@
 // Clase principal que prueba el funcionamiento de todos los objetos creados.
 
+import Dispositivos.BlueRay;
+import Dispositivos.Cd;
+import Dispositivos.DiscoDuro;
+import Dispositivos.Vinilo;
+import Otros.Frisbee;
+import Otros.Rueda;
+
 public class Main {
     public static void main(String[] args) {
 
         // Creación de objetos de cada tipo
         Cd miCd = new Cd("CD de música", 0.7, "Sony");
         DiscoDuro miHDD = new DiscoDuro("HDD externo", 1024, "Seagate");
-        Vinilo vinilo = new Vinilo("Vinilo clásico", 0.5, "Philips");
+        Vinilo vinilo = new Vinilo("Dispositivos.Vinilo clásico", 0.5, "Philips");
         BlueRay br = new BlueRay("Pelicula HD", 25, "Panasonic");
         Rueda rueda = new Rueda("Caucho", 18, "Michelin");
         Frisbee frisbee = new Frisbee("Rojo", 25, "Wham-O");

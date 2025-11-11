@@ -1,9 +1,11 @@
-// Clase concreta que representa un disco duro. Hereda de DispositivoAlmacenamiento.
+package Dispositivos;
+import Base.DispositivoAlmacenamiento;
 
-public class DiscoDuro extends DispositivoAlmacenamiento{
+// Clase concreta que representa un disco duro. Hereda de DispositivoAlmacenamiento.
+public class DiscoDuro extends DispositivoAlmacenamiento {
 
     public  DiscoDuro(String nombre, double capacidad, String Brand) {
-        super(nombre, capacidad, "Disco Duro", Brand);
+        super(nombre, capacidad, "Interfaces.Disco Duro", Brand);
     }
 
     @Override
