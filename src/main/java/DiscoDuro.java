@@ -6,7 +6,7 @@ public class DiscoDuro extends DispositivoAlmacenamiento{
 
     @Override
     public void girarDisco() {
-        System.out.println("El CD esta girando a 500 RPM ");
+        System.out.println("El disco duro esta girando a 500 RPM");
     }
 
     @Override
