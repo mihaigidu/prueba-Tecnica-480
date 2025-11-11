@@ -1,3 +1,4 @@
+// Clase que representa un frisbee. Implementa Giratorio porque también gira, pero no almacena datos.
 public class Frisbee implements Giratorio{
 
     private String color;

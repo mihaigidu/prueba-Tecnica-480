@@ -1,3 +1,5 @@
+// Clase concreta que representa un CD. Hereda de DispositivoAlmacenamiento.
+
 public class Cd extends DispositivoAlmacenamiento {
     public Cd (String nombre, double capacidad, String Brand) {
         super(nombre, capacidad, "Cd", Brand);
@@ -12,8 +14,6 @@ public class Cd extends DispositivoAlmacenamiento {
 
     @Override
     public void almacenarDatos(String datos) {
-        //got you!!
-
         this.contenido = datos;
         System.out.println("Datos guardados en el CD " + datos);
     }

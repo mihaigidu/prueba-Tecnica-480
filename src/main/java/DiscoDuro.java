@@ -1,3 +1,5 @@
+// Clase concreta que representa un disco duro. Hereda de DispositivoAlmacenamiento.
+
 public class DiscoDuro extends DispositivoAlmacenamiento{
 
     public  DiscoDuro(String nombre, double capacidad, String Brand) {
